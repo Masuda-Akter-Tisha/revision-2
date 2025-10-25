@@ -10,6 +10,130 @@
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 </head>
 <body>
-    
+    <h2>Please fill the form</h2>
+    <form action="">
+        <fieldset>
+            <legend>Tour-Registration-Form</legend>
+            <div class="input">
+                <label for="">Enter your name</label><br/>
+                <input type="text"
+                 placeholder="Enter your professional name" 
+                 size="25px" 
+                 minlength="5"
+                 maxlength="10"
+                 name="name"
+                 id="input-name"
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">Enter your email</label><br/>
+                <input type="email"
+                 placeholder="Enter your official email" 
+                 size="25px" 
+                 name="email"
+                 id="input-email"
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">Enter your company</label><br/>
+                <input type="text"
+                 placeholder="Enter your company " 
+                 size="25px" 
+                 name="company"
+                 id="input-company"
+                 value="programming hero"
+                 readonly
+                 required>
+            </div>
+            <br/>
+             </div>
+               <div class="input">
+                <label for="">Enter your favorite color</label><br/>
+                <input type="color"
+                 size="25px" 
+                 name="color"
+                 id="input-color"
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">Enter your birthday date</label><br/>
+                <input type="date"
+                 size="25px" 
+                 min="2023-05-02"
+                 name="birthday"
+                 id="input-birthday"
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">Enter your joining date</label><br/>
+                <input type="datetime-local"
+                 size="25px" 
+                 name="joining"
+                 id="input-joining"
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">upload your photo</label><br/>
+                <input type="file"
+                 size="25px" 
+                 name="photo"
+                 id="input-photo"
+                 multiple
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">Enter your secret password</label><br/>
+                <input type="password" 
+                placeholder="enter your password"
+                 size="25px" 
+                 name="password"
+                 id="input-password"
+                 required>
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">Enter your Gender</label><br/>
+                <input type="radio" name="gender" id="" value="Male" required>Male
+                <input type="radio" name="gender" id="" value="Female" required>Female
+            </div>
+            <br/>
+             <div class="input">
+                <label for="">select your favorite Alphabet</label><br/>
+                <input type="checkbox" name="alphabet" id="" value="T" required>T
+                <input type="checkbox" name="alphabet" id="" value="B" required>B
+            </div>
+            <br/>
+               <div class="input">
+                <label for="">Enter your age</label><br/>
+                <input type="number" 
+                 placeholder="enter your age"
+                 size="30px" 
+                 name="age"
+                 id="input-age"
+                 min="20"
+                 max="30"
+                 required>
+            </div>
+            <br/>
+            <div class="input">
+                <label for="">Enter your difficulty level</label>
+                <select name="" id="" required>
+                    <option value="">Easy</option>
+                    <option value="" selected >Medium</option>
+                    <option value="">Hard</option>
+                </select>
+            </div>
+            <br/>
+            <div>
+                <input type="submit" value="register now">
+        </fieldset>
+    </form>
+
 </body>
 </html>
